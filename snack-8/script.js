@@ -24,6 +24,6 @@ const students = [
 
 const studentClass = students.find(
   (student) => student.name === 'Marco Lanci',
-).class;
+)?.class;
 
 console.log(studentClass);
